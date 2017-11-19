@@ -1,0 +1,21 @@
+{
+  "name": "weixin-headimg",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "export DEBUG=LOG && node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "eventemitter3": "^2.0.3",
+    "fs-extra": "^4.0.2",
+    "glob": "^7.1.2",
+    "images": "^3.0.1",
+    "puppeteer": "^0.13.0",
+    "superagent": "^3.8.1"
+  },
+  "devDependencies": {},
+  "description": "一键合成所有微信好友头像"
+}
