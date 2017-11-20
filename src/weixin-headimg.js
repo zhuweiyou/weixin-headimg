@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer')
 const superagent = require('superagent')
 const images = require('images')
-const debug = require('debug')('weixin-headimg')
+const debug = require('debug')('src/weixin-headimg')
 
 let browser
 let page

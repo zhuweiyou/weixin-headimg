@@ -3,15 +3,15 @@
   "description": "一键合成所有微信好友头像",
   "version": "1.0.0",
   "scripts": {
-    "start": "cross-env DEBUG=./src/* && node ./src/index.js"
+    "start": "cross-env DEBUG=src/* && node ./src/index.js"
   },
-  "author": "zhuweiyou <i@zhuweiyou.com>",
+  "author": {
+    "name": "zhuweiyou",
+    "email": "i@zhuweiyou.com"
+  },
   "license": "MIT",
   "dependencies": {
     "debug": "^3.1.0",
-    "eventemitter3": "^2.0.3",
-    "fs-extra": "^4.0.2",
-    "glob": "^7.1.2",
     "images": "^3.0.1",
     "puppeteer": "^0.13.0",
     "superagent": "^3.8.1"
