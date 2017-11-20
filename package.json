@@ -1,11 +1,11 @@
 {
   "name": "weixin-headimg",
+  "description": "一键合成所有微信好友头像",
   "version": "1.0.0",
   "scripts": {
-    "start": "export DEBUG=LOG && node index.js"
+    "start": "cross-env DEBUG=./src/* && node ./src/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "zhuweiyou <i@zhuweiyou.com>",
   "license": "MIT",
   "dependencies": {
     "debug": "^3.1.0",
@@ -16,6 +16,7 @@
     "puppeteer": "^0.13.0",
     "superagent": "^3.8.1"
   },
-  "devDependencies": {},
-  "description": "一键合成所有微信好友头像"
+  "devDependencies": {
+    "cross-env": "^5.1.1"
+  }
 }
