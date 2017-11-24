@@ -3,7 +3,7 @@
   "description": "一键合成所有微信好友头像",
   "version": "1.0.0",
   "scripts": {
-    "start": "cross-env DEBUG=src/* && node ./src/index.js"
+    "start": "cross-env DEBUG=src/* node ./src/index.js"
   },
   "author": {
     "name": "zhuweiyou",
