@@ -9,7 +9,7 @@
     "name": "zhuweiyou",
     "email": "i@zhuweiyou.com"
   },
-  "license": "MIT",
+  "license": "GPL-3.0",
   "dependencies": {
     "debug": "^3.1.0",
     "images": "^3.0.1",
